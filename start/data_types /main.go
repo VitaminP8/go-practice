@@ -44,13 +44,16 @@ func main() {
 	fmt.Println(s)
 
 	// строки
-	str := "Helllo world"
+	str := "Hello world"
 	var c byte = str[0]
 	l := len(str)
 	fmt.Println(str, " ", l)
 	fmt.Println(c)
 
 	// итерация по рунам
+	for i, v := range str {
+		fmt.Println(i, v)
+	}
 	for i, v := range str {
 		fmt.Println(i, string(v))
 	}
