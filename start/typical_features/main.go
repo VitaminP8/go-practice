@@ -1,4 +1,4 @@
-package typical_errors_and_features
+package typical_features
 
 //package main
 
