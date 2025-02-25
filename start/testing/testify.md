@@ -46,34 +46,6 @@ func TestDivision(t *testing.T) {
 }
 ```
 
-### 3. **Suites (Наборы тестов)**
-Пакет `suite` позволяет организовывать тесты в наборы (suites), что упрощает настройку и очистку перед/после выполнения тестов.
-
-Пример:
-
-```go
-import (
-    "testing"
-    "github.com/stretchr/testify/suite"
-)
-
-type MySuite struct {
-    suite.Suite
-    Value int
-}
-
-func (s *MySuite) SetupTest() {
-    s.Value = 42 // Настройка перед каждым тестом
-}
-
-func (s *MySuite) TestExample() {
-    s.Equal(42, s.Value, "Значение должно быть 42")
-}
-
-func TestSuite(t *testing.T) {
-    suite.Run(t, new(MySuite))
-}
-```
 
 ## Преимущества Testify
 
