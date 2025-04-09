@@ -6,6 +6,7 @@ require (
 	github.com/kelvins/geocoder v0.0.0-20231112130812-98d82c75e49b
 	github.com/kulti/titlecase v0.0.0-20200224064438-b92376e612e5
 	github.com/nathan-osman/go-sunrise v1.1.0
+	github.com/phsym/console-slog v0.3.1
 	github.com/stretchr/testify v1.10.0
 )
 
