@@ -1,5 +1,6 @@
-// package configuration_and_logging
-package main
+package configuration_and_logging
+
+//package main
 
 import (
 	"errors"
