@@ -1,0 +1,6 @@
+time=2025-04-09T15:53:01.324+04:00 level=INFO msg="starting processing"
+time=2025-04-09T15:53:01.325+04:00 level=INFO msg="going to call handler" request_id=12345
+time=2025-04-09T15:53:01.325+04:00 level=INFO msg="Processing started" request_id=12345
+time=2025-04-09T15:53:01.325+04:00 level=WARN msg="Processing took too long" request_id=12345 duration=12s
+time=2025-04-09T15:53:01.325+04:00 level=ERROR msg="error while process request" error="some error"
+time=2025-04-09T15:53:01.325+04:00 level=INFO msg="processing finished"
